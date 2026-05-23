@@ -35,7 +35,7 @@ Bot de apostas para Discord integrado com Mercado Pago PIX.
 Clone o projeto:
 
 ```bash
-git clone https://github.com/SEUUSUARIO/Bot-api-pix.git
+git clone https://github.com/Viztor-11/Bot-api-pix.git
 ```
 
 Entre na pasta:
@@ -59,6 +59,8 @@ Crie um arquivo `.env`
 ```env
 TOKEN=SEU_TOKEN_DISCORD
 MP_ACCESS_TOKEN=SEU_TOKEN_MERCADO_PAGO
+MOD_ROLE_ID=ID_DO_CARGO
+LOG_CHANNEL_ID=ID_DO_CANAL
 ```
 
 ---
@@ -81,12 +83,76 @@ O projeto pode ser hospedado usando:
 
 ---
 
+## Estrutura do projeto
+
+```text
+Bot-api-pix/
+│
+├── images/
+├── services/
+├── views/
+├── utils/
+│
+├── main.py
+├── config.py
+├── data.py
+├── requirements.txt
+├── .env.example
+└── README.md
+```
+
+---
+
 ## Preview
 
-Adicione prints do bot futuramente.
+### Tela inicial
+
+![Preview](images/preview.png)
+
+---
+
+### Seleção de modo
+
+![Modos](images/modos.png)
+
+---
+
+### Escolha da plataforma
+
+![Plataforma](images/plataforma.png)
+
+---
+
+### Inserção do valor
+
+![Valor](images/valor.png)
+
+---
+
+### Nova aposta criada
+
+![Aposta](images/aposta.png)
+
+---
+
+### Sala privada criada
+
+![Sala](images/sala.png)
+
+---
+
+### Pagamento PIX
+
+![PIX](images/qr.png)
+
+---
+
+### Resultado da partida
+
+![Winner](images/winner.png)
 
 ---
 
 ## Licença
 
-Projeto desenvolvido para fins de estudo.
+Este projeto utiliza a licença MIT.
