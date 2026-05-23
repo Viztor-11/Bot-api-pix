@@ -25,11 +25,18 @@ bot = commands.Bot(
 )
 async def aposta(interaction: discord.Interaction):
 
-    await interaction.response.send_message(
-        "🎮 Escolha o modo:",
-        view=CriarView(),
-        ephemeral=True
-    )
+    if interaction.response.is_done():
+        await interaction.followup.send(
+            "🎮 Escolha o modo:",
+            view=CriarView(),
+            ephemeral=True
+        )
+    else:
+        await interaction.response.send_message(
+            "🎮 Escolha o modo:",
+            view=CriarView(),
+            ephemeral=True
+        )
 
 @bot.event
 async def setup_hook():
