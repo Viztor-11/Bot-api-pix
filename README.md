@@ -107,49 +107,49 @@ Bot-api-pix/
 
 ### Tela inicial
 
-<img src="images/preview.png" width="700">
+![Preview](./images/preview.png)
 
 ---
 
 ### Seleção de modo
 
-<img src="images/modos.png" width="700">
+![Modos](./images/modos.png)
 
 ---
 
 ### Escolha da plataforma
 
-<img src="images/plataforma.png" width="700">
+![Plataforma](./images/plataforma.png)
 
 ---
 
 ### Inserção do valor
 
-<img src="images/valor.png" width="700">
+![Valor](./images/valor.png)
 
 ---
 
 ### Nova aposta criada
 
-<img src="images/aposta.png" width="700">
+![Aposta](./images/aposta.png)
 
 ---
 
 ### Sala privada criada
 
-<img src="images/sala.png" width="700">
+![Sala](./images/sala.png)
 
 ---
 
 ### Pagamento PIX
 
-<img src="images/qr.png" width="700">
+![PIX](./images/qr.png)
 
 ---
 
 ### Resultado da partida
 
-<img src="images/winner.png" width="700">
+![Winner](./images/winner.png)
 
 ---
 
