@@ -101,7 +101,7 @@ async def criar_sala(interaction, aposta_id):
         guild.default_role: discord.PermissionOverwrite(read_messages=False),
         criador: discord.PermissionOverwrite(read_messages=True),
         oponente: discord.PermissionOverwrite(read_messages=True),
-        guild.me: discord.PermissionOverwrite(read_messages=True)
+        guild.self_member: discord.PermissionOverwrite(read_messages=True)
     }
 
     canal = await guild.create_text_channel(
