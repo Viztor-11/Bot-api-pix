@@ -54,7 +54,7 @@ pip install -r requirements.txt
 
 ## Configuração
 
-Crie um arquivo `.env`
+Crie um arquivo `.env`:
 
 ```env
 TOKEN=SEU_TOKEN_DISCORD
@@ -98,6 +98,7 @@ Bot-api-pix/
 ├── data.py
 ├── requirements.txt
 ├── .env.example
+├── LICENSE
 └── README.md
 ```
 
