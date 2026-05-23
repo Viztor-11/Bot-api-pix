@@ -24,19 +24,17 @@ bot = commands.Bot(
     guild=guild
 )
 async def aposta(interaction: discord.Interaction):
+    try:
+        await interaction.response.defer(ephemeral=True)
 
-    if interaction.response.is_done():
         await interaction.followup.send(
-            "🎮 Escolha o modo:",
+            "Escolha o modo:",
             view=CriarView(),
             ephemeral=True
         )
-    else:
-        await interaction.response.send_message(
-            "🎮 Escolha o modo:",
-            view=CriarView(),
-            ephemeral=True
-        )
+
+    except Exception as e:
+        print("ERRO NO COMANDO /aposta:", e)
 
 @bot.event
 async def setup_hook():
