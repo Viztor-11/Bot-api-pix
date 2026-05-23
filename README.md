@@ -130,12 +130,6 @@ Bot-api-pix/
 
 ---
 
-### Nova aposta criada
-
-![Aposta](https://raw.githubusercontent.com/Viztor-11/Bot-api-pix/main/images/aposta.png)
-
----
-
 ### Sala privada criada
 
 ![Sala](https://raw.githubusercontent.com/Viztor-11/Bot-api-pix/main/images/sala.png)
