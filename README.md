@@ -108,49 +108,49 @@ Bot-api-pix/
 
 ### Tela inicial
 
-![Preview](./images/preview.png)
+![Preview](https://raw.githubusercontent.com/Viztor-11/Bot-api-pix/main/images/preview.png)
 
 ---
 
 ### Seleção de modo
 
-![Modos](./images/modos.png)
+![Modos](https://raw.githubusercontent.com/Viztor-11/Bot-api-pix/main/images/modos.png)
 
 ---
 
 ### Escolha da plataforma
 
-![Plataforma](./images/plataforma.png)
+![Plataforma](https://raw.githubusercontent.com/Viztor-11/Bot-api-pix/main/images/plataforma.png)
 
 ---
 
 ### Inserção do valor
 
-![Valor](./images/valor.png)
+![Valor](https://raw.githubusercontent.com/Viztor-11/Bot-api-pix/main/images/valor.png)
 
 ---
 
 ### Nova aposta criada
 
-![Aposta](./images/aposta.png)
+![Aposta](https://raw.githubusercontent.com/Viztor-11/Bot-api-pix/main/images/aposta.png)
 
 ---
 
 ### Sala privada criada
 
-![Sala](./images/sala.png)
+![Sala](https://raw.githubusercontent.com/Viztor-11/Bot-api-pix/main/images/sala.png)
 
 ---
 
 ### Pagamento PIX
 
-![PIX](./images/qr.png)
+![PIX](https://raw.githubusercontent.com/Viztor-11/Bot-api-pix/main/images/qr.png)
 
 ---
 
 ### Resultado da partida
 
-![Winner](./images/winner.png)
+![Winner](https://raw.githubusercontent.com/Viztor-11/Bot-api-pix/main/images/winner.png)
 
 ---
 
