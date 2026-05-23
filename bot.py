@@ -16,8 +16,8 @@ load_dotenv()
 
 TOKEN = os.getenv("TOKEN")
 MP_ACCESS_TOKEN = os.getenv("MP_ACCESS_TOKEN")
-MOD_ROLE_ID = 'MOD-ID'
-LOG_CHANNEL_ID = 'CHANNEL-ID'
+MOD_ROLE_ID = int(os.getenv("MOD_ROLE_ID"))
+LOG_CHANNEL_ID = int(os.getenv("LOG_CHANNEL_ID"))
 
 sdk = mercadopago.SDK(MP_ACCESS_TOKEN)
 
